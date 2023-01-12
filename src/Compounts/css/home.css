@@ -1,0 +1,29 @@
+.link_button:hover{
+border-bottom: 3px solid black;
+width: auto;
+}
+
+.slideshow{
+    width: 74%;
+    height: 20em;
+    
+    /* margin-left: 3.5em; */
+    border-radius: 10px;
+ 
+    box-shadow: 1px 2px 10px 5px white;
+    
+    animation: slider 9s infinite linear;
+    background-image: url(https://www.gearbest.com/u_file/2212/12/photo/105254957714338494-195a.jpg?x-oss-process=image/format,webp/resize,m_lfit,h_0,w_1920); background-size:100% 100% ;
+}
+@keyframes slider{
+    0%{background-image: url(https://www.gearbest.com/u_file/2212/12/photo/105254957714338494-195a.jpg?x-oss-process=image/format,webp/resize,m_lfit,h_0,w_1920); background-size:100% 100% ;}
+    
+    35%{background-image: url(https://www.gearbest.com/u_file/2212/12/photo/105254957714338494-195a.jpg?x-oss-process=image/format,webp/resize,m_lfit,h_0,w_1920); background-size:100% 100% ;}
+
+    70%{background-image: url(https://www.gearbest.com/u_file/2212/12/photo/105254957714338494-195a.jpg?x-oss-process=image/format,webp/resize,m_lfit,h_0,w_1920); background-size:100% 100% ;}
+
+}
+.hov:hover{
+    color: red;
+    font-weight: bold;
+}
